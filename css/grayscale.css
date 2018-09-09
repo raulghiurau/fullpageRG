@@ -22,7 +22,7 @@
 .masthead h1 {
   font-family: 'Work Sans', sans-serif;
   font-size: 2.5rem;
-  line-height: 6.5rem;
+  line-height: 2.5rem;
   background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
   -webkit-text-fill-color: white;
   -webkit-background-clip: text;
@@ -37,7 +37,7 @@
 @media (min-width: 768px) {
   .masthead h1 {
     font-size: 2.5rem;
-    line-height: 6.5rem;
+    line-height: 2.5rem;
   }
 }
 
