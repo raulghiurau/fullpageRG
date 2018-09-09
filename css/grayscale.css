@@ -6,7 +6,7 @@
 
 #mainNav {
   min-height: 56px;
-  background-color: #fff;
+  background-color: transparent;
 }
 
 #mainNav .navbar-toggler {
@@ -48,13 +48,13 @@
   }
   #mainNav .navbar-brand {
     padding: .5rem 0;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255);
   }
   #mainNav .nav-link {
     -webkit-transition: none;
     transition: none;
     padding: 2rem 1.5rem;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255);
   }
   #mainNav .nav-link:hover {
     color: rgba(255, 255, 255, 0.75);
@@ -92,45 +92,46 @@
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/bg-masthead.jpg");
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/bg-masthead.jpg");
-  background-position: center;
+/*  background: url("../img/ocean-view-in-mexico_4460x4460.jpg");*/
+  background: linear-gradient(to bottom,rgba(22,22,22,.1) 0,rgba(22,22,22,.5) 75%,#161616 100%),url(../img/ocean-view-in-mexico_4460x4460.jpg);
+  background-position: top center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
 }
 
 .masthead h1 {
-  font-family: 'Varela Round';
+ font-family: 'Work Sans', sans-serif;
+
   font-size: 2.5rem;
-  line-height: 2.5rem;
-  letter-spacing: 0.8rem;
+  line-height: 6.5rem;
   background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: white;
   -webkit-background-clip: text;
 }
 
 .masthead h2 {
   max-width: 20rem;
-  font-size: 1rem;
+  font-size: 1.25rem;
+  color: white;
 }
 
 @media (min-width: 768px) {
   .masthead h1 {
-    font-size: 4rem;
-    line-height: 4rem;
+    font-size: 2.5rem;
+    line-height: 6.5rem;
   }
 }
 
 @media (min-width: 992px) {
   .masthead {
     height: 100vh;
+    min-height: 35rem;
     padding: 0;
   }
   .masthead h1 {
-    font-size: 6.5rem;
+    font-size: 2.5rem;
     line-height: 6.5rem;
-    letter-spacing: 0.8rem;
   }
   .masthead h2 {
     max-width: 30rem;
@@ -142,7 +143,7 @@
   -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
-  font-family: 'Varela Round';
+  font-family: 'Lato', sans-serif;
   font-size: 80%;
   text-transform: uppercase;
   letter-spacing: .15rem;
@@ -150,26 +151,29 @@
 }
 
 .btn-primary {
-  background-color: #64a19d;
+  background-color: #9E825A;
 }
 
 .btn-primary:hover {
-  background-color: #4f837f;
+  background-color: #4A809E;
 }
 
 .btn-primary:focus {
-  background-color: #4f837f;
+  background-color: #9DCEEB;
   color: white;
 }
 
 .btn-primary:active {
-  background-color: #467370 !important;
+  background-color: #9DCEEB !important;
 }
 
 .about-section {
+  padding-bottom: 33rem;
   padding-top: 10rem;
   background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgba(22, 22, 22, 0.8)));
   background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
+  background: url(../img/ocean-view-in-mexico_4460x4460.jpg);
+
 }
 
 .about-section p {
@@ -210,7 +214,7 @@
 .signup-section {
   padding: 10rem 0;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/bg-signup.jpg");
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/bg-signup.jpg");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/hiking-oceanside-cliffs_4460x4460.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -222,7 +226,8 @@
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
   height: auto;
-  font-family: 'Varela Round';
+ font-family: 'Work Sans', sans-serif;
+
   font-size: 80%;
   text-transform: uppercase;
   letter-spacing: 0.15rem;
@@ -235,18 +240,19 @@
 
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #64a19d;
+  border-bottom: 0.25rem solid #4A809E;
 }
 
 .contact-section .card h4 {
   font-size: 0.8rem;
-  font-family: 'Varela Round';
+  font-family: 'Work Sans', sans-serif;
+
   text-transform: uppercase;
   letter-spacing: 0.15rem;
 }
 
 .contact-section .card hr {
-  border-color: #64a19d;
+  border-color: #4A809E;
   border-width: 0.25rem;
   width: 3rem;
 }
@@ -274,7 +280,7 @@
 }
 
 body {
-  font-family: 'Nunito';
+   font-family: 'Work Sans', sans-serif;
   letter-spacing: 0.0625em;
 }
 
@@ -292,11 +298,11 @@ a:focus, a:hover {
 }
 
 .bg-primary {
-  background-color: #64a19d !important;
+  background-color: #4A809E !important;
 }
 
 .text-primary {
-  color: #64a19d !important;
+  color: #4A809E !important;
 }
 
 footer {
