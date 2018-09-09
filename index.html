@@ -29,7 +29,7 @@
 
     <!-- Navigation -->
 <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="index.html"><strong>PRO</strong><small>FESSIONAL</small></a>
+  <a class="navbar-brand js-scroll-trigger" href="#page-top"><strong>PRO</strong><small>FESSIONAL</small></a>
   
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -37,14 +37,17 @@
 
   <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
     <ul class="navbar-nav justify-content-end">
-      <li class="nav-item active">
-        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      <li class="nav-item ">
+        <a class="nav-link js-scroll-trigger" href="#page-top">Home </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="service.html">Services</a>
+        <a class="nav-link js-scroll-trigger" href="#about">About</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link " href="contact.html">Contact</a>
+        <a class="nav-link js-scroll-trigger" href="#service">Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
       </li>
     </ul>
   </div>
@@ -61,6 +64,139 @@
         </div>
       </div>
     </header>
+
+
+ <!-- About Section -->
+    <section id="about" class="about-section text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2 class="mb-4">Simplicity stays with you forever.</h2>
+            <p>This is why there is no method to creating a website but to have only what is needed. Focus on what is important and deliver on one goal. Often times the best way to get a message accross is to have a simple way for your audience to understand it.</p>
+          </div>
+        </div>
+        <!-- <img src="img/ipad.png" class="img-fluid" alt=""> -->
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="service" class="projects-section bg-light ">
+      <div class="container">
+
+        <!-- Featured Project Row -->
+        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+          <div class="col-xl-8 col-lg-7">
+            <img class="img-fluid mb-3 mb-lg-0" src="img/bg-masthead.jpg" alt="">
+          </div>
+          <div class="col-xl-4 col-lg-5">
+            <div class="featured-text text-center text-lg-left">
+              <h4>Shoreline</h4>
+              <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project One Row -->
+        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+          <div class="col-lg-6">
+            <img class="img-fluid" src="img/demo-image-01.jpg" alt="">
+          </div>
+          <div class="col-lg-6">
+            <div class="bg-black text-center h-100 project">
+              <div class="d-flex h-100">
+                <div class="project-text w-100 my-auto text-center text-lg-left">
+                  <h4 class="text-white">Misty</h4>
+                  <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
+                  <hr class="d-none d-lg-block mb-0 ml-0">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Two Row -->
+        <div class="row justify-content-center no-gutters">
+          <div class="col-lg-6">
+            <img class="img-fluid" src="img/demo-image-02.jpg" alt="">
+          </div>
+          <div class="col-lg-6 order-lg-first">
+            <div class="bg-black text-center h-100 project">
+              <div class="d-flex h-100">
+                <div class="project-text w-100 my-auto text-center text-lg-right">
+                  <h4 class="text-white">Mountains</h4>
+                  <p class="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!</p>
+                  <hr class="d-none d-lg-block mb-0 mr-0">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+     <!-- Signup Section -->
+    <section id="signup" class="signup-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 col-lg-8 mx-auto text-center">
+
+            <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
+            <h2 class="text-white mb-5">How can we get started?</h2>
+
+            <form class="form-inline d-flex">
+              <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Enter email address...">
+              <button type="submit" class="btn btn-primary mx-auto">Send</button>
+            </form>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section bg-black" id="contact">
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+                <h4 class="text-uppercase m-0">Current Location</h4>
+                <hr class="my-4">
+                <div class="small text-black-50">Troy MI 48083</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fas fa-envelope text-primary mb-2"></i>
+                <h4 class="text-uppercase m-0">Contact via Email</h4>
+                <hr class="my-4">
+                <div class="small text-black-50">
+                  <a href="mailto:raulghiurau@gmail.com" class="btn btn-outline-primary btn-sm">Email Me</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fas fa-mobile-alt text-primary mb-2"></i>
+                <h4 class="text-uppercase m-0">Reach out via Phone</h4>
+                <hr class="my-4">
+                <div class="small text-black-50">+1 (555) 902-8832</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
 
 
