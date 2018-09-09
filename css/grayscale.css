@@ -12,7 +12,7 @@
   min-height: 15rem;
   padding: 15rem 0;
   background: url("../img/ocean-view-in-mexico_4460x4460.jpg");
-  background: linear-gradient(to bottom,rgba(22,22,22,.1) 0,rgba(22,22,22,.5) 75%,#161616 100%),url(../img/ocean-view-in-mexico_4460x4460.jpg);
+  background: linear-gradient(to bottom,rgba(22,22,22,.1) 0,rgba(22,22,22,.5) 55%,#161616 100%),url(../img/ocean-view-in-mexico_4460x4460.jpg);
   background-position: top center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -60,7 +60,7 @@
 .btn {
   -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
-  padding: 1.25rem 2rem;
+  padding: 1.25rem 1.25rem;
   font-family: 'Lato', sans-serif;
   font-size: 80%;
   text-transform: uppercase;
@@ -86,16 +86,16 @@
 }
 
 .about-section {
-  padding-bottom: 33rem;
-  padding-top: 10rem;
-  background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgba(22, 22, 22, 0.8)));
-  background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
-  background: url(../img/ocean-view-in-mexico_4460x4460.jpg);
+  padding-top: 100px;
+  padding-bottom: 500px;
+  background: url(../img/hiking-oceanside-cliffs_4460x4460.jpg);
+  background: linear-gradient(to bottom,rgba(22,22,22,.1) 0,rgba(22,22,22,.5) 55%,#161616 100%),url(../img/hiking-oceanside-cliffs_4460x4460.jpg);
+  background-position: bottom;
 
 }
 
-.about-section p {
-  margin-bottom: 5rem;
+.about-section h2 {
+ padding-bottom: 50px;
 }
 
 .projects-section {
