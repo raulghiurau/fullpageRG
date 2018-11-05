@@ -28,9 +28,9 @@ gulp.task('vendor', function() {
     ])
     .pipe(gulp.dest('./vendor/bootstrap'))
 
-  // Font Awesome 5
+  // Font Awesome
   gulp.src([
-      './node_modules/@fortawesome/**/*'
+      './node_modules/@fortawesome/**/*',
     ])
     .pipe(gulp.dest('./vendor'))
 

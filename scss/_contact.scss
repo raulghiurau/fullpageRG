@@ -1,36 +1,47 @@
-.contact-section {
-  padding: 5rem 0 0;
-  .card {
-    border: 0;
-    border-bottom: 0.25rem solid $primary;
-    h4 {
-      font-size: 0.8rem;
-      font-family: 'Varela Round';
-      text-transform: uppercase;
-      letter-spacing: 0.15rem;
+// Styling for the contact section
+section#contact {
+  background-color: $gray-900;
+  background-image: url('../img/map-image.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  .section-heading {
+    color: $white;
+  }
+  .form-group {
+    margin-bottom: 25px;
+    input,
+    textarea {
+      padding: 20px;
     }
-    hr {
-      border-color: $primary;
-      border-width: 0.25rem;
-      width: 3rem;
+    input.form-control {
+      height: auto;
+    }
+    textarea.form-control {
+      height: 248px;
     }
   }
-  .social {
-    margin-top: 5rem;
-    a {
-      text-align: center;
-      height: 3rem;
-      width: 3rem;
-      background: fade-out($white, 0.9);
-      border-radius: 100%;
-      line-height: 3rem;
-      color: fade-out($white, 0.7);
-      &:hover {
-        color: fade-out($white, 0.5);
-      }
-      &:active {
-        color: $white;
-      }
-    }
+  .form-control:focus {
+    border-color: $primary;
+    box-shadow: none;
+  }
+  ::-webkit-input-placeholder {
+    font-weight: 700;
+    color: $gray-400;
+    @include heading-font;
+  }
+  :-moz-placeholder {
+    font-weight: 700;
+    color: $gray-400;
+    @include heading-font;
+  }
+  ::-moz-placeholder {
+    font-weight: 700;
+    color: $gray-400;
+    @include heading-font;
+  }
+  :-ms-input-placeholder {
+    font-weight: 700;
+    color: $gray-400;
+    @include heading-font;
   }
 }
