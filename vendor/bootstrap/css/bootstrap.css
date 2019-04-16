@@ -2334,8 +2334,8 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: #ce0000;
+  border-color: #ce0000;
 }
 
 .btn-primary:hover {
@@ -4791,13 +4791,14 @@ input[type="button"].btn-block {
 
 .badge-primary {
   color: #fff;
-  background-color: #007bff;
+
+  border: 1px solid white;
 }
 
 .badge-primary[href]:hover, .badge-primary[href]:focus {
   color: #fff;
   text-decoration: none;
-  background-color: #0062cc;
+ /* background-color: #0062cc;*/
 }
 
 .badge-secondary {
