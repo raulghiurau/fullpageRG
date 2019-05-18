@@ -6,7 +6,24 @@
 
 section.pricing {
   background: #fff;
- 
+}
+
+.start {
+  border-radius: 3px;
+  border-color: #f2f2f2;
+  color: #f2f2f2;
+  border: 1px solid;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.start:hover {
+  border-radius: 3px;
+  border-color: #007bff;
+  color: #007bff;
+  border: 1px solid;
+  padding: 10px 20px;
+  text-decoration: none;
 }
 
 .pricing .card {
@@ -78,11 +95,12 @@ p {
 }
 
 a {
-  color: #fed136;
+  color: #2037A8;
 }
 
 a:hover {
-  color: #fec503;
+  color: #007bff; 
+  border-color: #007bff;
 }
 
 .text-primary {
@@ -130,8 +148,8 @@ section h3.section-subheading {
 .btn {
   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
   font-weight: 700;
-  border-color: #f2f2f2;
-  color: #f2f2f2;
+  border-color: #2F3233;
+  color: #2F3233;
 }
 
 .btn-xl {
@@ -140,8 +158,8 @@ section h3.section-subheading {
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #00cece !important;
-  border-color: #00cece !important;
+  background-color: #007bff !important;
+  border-color: #007bff !important;
   color: white;
 }
 
@@ -183,7 +201,7 @@ img::-moz-selection {
   text-transform: uppercase;
   color: white;
   border: 0;
-  background-color: #fed136;
+  background-color: #007bff;
   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
 }
 
@@ -193,7 +211,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #fec503;
+  color: #2037A8;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -206,7 +224,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #fed136;
+  color: #007bff;
 }
 
 @media (min-width: 992px) {
@@ -766,7 +784,7 @@ ul.social-buttons li a {
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: #fed136;
+  background-color: #007bff;
 }
 
 #fade {
